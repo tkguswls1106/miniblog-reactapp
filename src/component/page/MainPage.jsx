@@ -26,7 +26,7 @@ const Container = styled.div`
 `;
 
 function MainPage(props) {
-    const {} = props;
+    const {} = props;  // 이 코드줄은 아마 안써도 되는듯?하다.
 
     const navigate = useNavigate();  // 페이지 이동에 사용함. react-router-dom의 useNavigate() 훅이다.
 
