@@ -24,7 +24,7 @@ const Container = styled.div`
 `;
 
 function PostWritePage(props) {
-    const navigate = useNavigate();
+    const navigate = useNavigate();  // 페이지 이동에 사용함. react-router-dom의 useNavigate() 훅이다.
 
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");

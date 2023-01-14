@@ -49,7 +49,7 @@ const CommentLabel = styled.p`
 `;
 
 function PostViewPage(props) {
-    const navigate = useNavigate();
+    const navigate = useNavigate();  // 페이지 이동에 사용함. react-router-dom의 useNavigate() 훅이다.
     const { postId } = useParams();
 
     const post = data.find((item) => {  // 먼저 props로 전달받은 글의 id를 통해서, 전체 data데이터에서 해당 id와 일치하는 글을 찾아서 불러와, 변수 post에 할당한다.
